@@ -1,0 +1,55 @@
+.margin {
+  margin:auto;
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.card-container-layout {
+  text-align: center;
+  padding: 30px 30px;
+  /* min-height: 300px; */
+  border-radius: 40px;
+  max-width: 40%;
+  margin-top: 200px;
+  background-color: #ebf9fd;
+}
+
+.metamask-icon {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.round {
+  border-radius: 42px;
+}
+
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+  background-color: #1e408a;
+  border: 3px solid #201e8a;
+  border-radius: 6px;
+  color: #dafff7;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: var(--secondaryColor);
+  border-color: var(--primaryColor);
+  background-color: #285ba8;
+  border-color: #083569;
+}

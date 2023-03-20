@@ -1,0 +1,45 @@
+.header {
+    width: 100%;
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e408a;
+    padding: 0 10%;
+    position: sticky;
+    top: 0;
+    margin-bottom: 30px;
+  }
+  
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .header li {
+    margin-left: 3rem;
+  }
+  
+  .header a {
+    /* text-decoration: none; */
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(128, 173, 240);
+  }
+  
+  .selectedTab a{
+    color: rgb(197, 220, 240);
+  }
+  
+  .header a:hover,
+  .header a:active,
+  .header a.active {
+    color: rgb(255, 255, 255);
+  }
+  
+
+  

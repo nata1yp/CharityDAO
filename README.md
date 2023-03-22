@@ -10,8 +10,8 @@
 
 ## Getting Started
 Create a Ganache Workspace using ***truffle-config.js*** file which is in ***backend*** 
-*Note: If you click the CONTRACTS tab in Ganache window you can view a Contract which is not yet deployed and do not have an address*
-*Note: Always Keep Ganache running while running CharityDAO*
+<br>*Note: If you click the CONTRACTS tab in Ganache window you can view a Contract which is not yet deployed and do not have an address*</br>
+<br>*Note: Always Keep Ganache running while running CharityDAO*</br>
 
 Clone repository and open a new Terminal
 
@@ -53,7 +53,7 @@ truffle migrate --reset
 
 Copy the address of the contract
 
-Navigate to ***contract-address.js*** file located in ***client\constants*** and replace the old address with the one you copied from Ganache
+Navigate to ***contract-address.js*** file located in ***client/constants*** and replace the old address with the one you copied from Ganache
 
 Navigate terminal to ***client*** folder with command: 
 ```bash
